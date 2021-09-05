@@ -1,6 +1,6 @@
 import React from 'react';
 import {FormattedMessage, FormattedDate} from 'react-intl';
-import LangSelector from './../../components/LangSelector';
+import LangMenu from '../../components/LangMenu/LangMenu';
 
 class Home extends React.Component {
 	componentDidMount() {
@@ -9,8 +9,8 @@ class Home extends React.Component {
 	render() {
 		return (
 			<div>
-				<div >
-					<LangSelector />
+				<div>
+					<LangMenu />
 					<h1>
 						<FormattedMessage
 							id="title"

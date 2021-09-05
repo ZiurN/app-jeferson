@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Router from './Router';
 import * as serviceWorker from './serviceWorker';
-import {LangProvider} from './context/langContext';
+import {LangProvider} from './context/LangContext';
 
 ReactDOM.render(
 	<React.StrictMode>
