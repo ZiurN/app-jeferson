@@ -7,7 +7,7 @@ class Home extends React.Component {
 		super(props);
 		this.handleClick = e => {
 			e.preventDefault();
-			this.context.defineLang(this.props.locale)
+			this.context.defineLang(this.props.locale);
 		};
 	}
 	render() {

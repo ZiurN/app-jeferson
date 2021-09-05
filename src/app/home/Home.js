@@ -1,6 +1,6 @@
 import React from 'react';
 import {FormattedMessage, FormattedDate} from 'react-intl';
-import LangButton from './../../components/LangButton';
+import LangSelector from './../../components/LangSelector';
 
 class Home extends React.Component {
 	componentDidMount() {
@@ -10,20 +10,7 @@ class Home extends React.Component {
 		return (
 			<div>
 				<div >
-					<ul>
-						<li>
-							<LangButton
-								language="Español"
-								locale="es-MX"
-							/>
-						</li>
-						<li>
-							<LangButton
-								language="English"
-								locale="en-US"
-							/>
-						</li>
-					</ul>
+					<LangSelector />
 					<h1>
 						<FormattedMessage
 							id="title"
